@@ -11,12 +11,19 @@
 
 <nav class="navbar">
     <div class="logo">Boris</div>
-    <ul class="nav-links">
+
+    <button class="btn-hamburger" id="btn-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
         <li><a href="#accueil">Accueil</a></li>
         <li><a href="#apropos">À propos</a></li>
         <li><a href="#competences">Compétences</a></li>
         <li><a href="#projets">Projets</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="item-mobile-uniquement"><a href="#contact" class="btn-embauche-mobile">Me contacter</a></li>
     </ul>
     <a href="#contact" class="btn-embauche">Me contacter</a>
 </nav>
@@ -189,3 +196,5 @@
 </footer>
 
 <script src="script.js"></script>
+</body>
+</html>
